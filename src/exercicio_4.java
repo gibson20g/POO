@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class exercicio_4 {
@@ -9,7 +7,7 @@ public class exercicio_4 {
         double lado = dados.nextDouble();
 
         double perimetro = lado * 4;
-        double area = lado * 2;
+        double area = lado * lado;
 
         System.out.printf("A área do Quadrado é: %.2f e o Perímetro é: %.2f ", area, perimetro);
     }
