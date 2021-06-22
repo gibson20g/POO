@@ -7,10 +7,10 @@ public class L2_exercicio_1 {
         System.out.println("Informe o número INTEIRO que deseja analisar: ");
         double num = dados.nextDouble();
 
-        if (num/2 == 0) {
-            System.out.println("legal");
+        if (num%2 == 0) {
+            System.out.println("O número é Par");
         }else{
-            System.out.println("errado");
+            System.out.println("Número Ímpa");
             }
 
     }

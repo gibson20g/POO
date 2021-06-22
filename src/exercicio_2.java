@@ -6,11 +6,8 @@ public class exercicio_2 {
         System.out.println("informe o tamanho em metros");
         double metro = dados.nextDouble();
 
-        double resultado = metro / 100;
-        System.out.printf("Os %.2f convertido é igual a %.2f centímetros", metro, resultado);
-
-
-
+        double resultado = metro * 100;
+        System.out.printf("Os %.2f metro(s) convertido é igual a %.2f centímetros", metro, resultado);
 
     }
 }
