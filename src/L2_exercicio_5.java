@@ -13,16 +13,16 @@ public class L2_exercicio_5 {
 
 
         if (imc < 18.5){
-            System.out.format("Seu IMC é %s", imc);
+            System.out.format("Seu IMC é %.2s\n", imc);
             System.out.println("Abaixo do Peso");
         }else if (18.5 <= imc && imc < 24.99){
-            System.out.format("Seu IMC é %s", imc);
+            System.out.format("Seu IMC é %.2s\n", imc);
             System.out.println("Peso dentro do Normal");
         }else if (24.99 <= imc && imc < 34.9){
-            System.out.format("Seu IMC é %s", imc);
+            System.out.format("Seu IMC é %.2s\n", imc);
             System.out.println("Acima do Peso");
         }else if (imc >= 40){
-            System.out.format("Seu IMC é %s", imc);
+            System.out.format("Seu IMC é %.2s\n", imc);
             System.out.println("Está com Obsedida, Procure um Médico");
         }
         else{

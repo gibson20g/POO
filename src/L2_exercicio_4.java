@@ -12,7 +12,8 @@ public class L2_exercicio_4 {
         float r3 = dados.nextFloat();
 
 
-        if (r1 < r2 + r3 || r2 < r1 + r3 || r3 < r1 + r2) {
+
+        if (r1 < r2 + r3 & r2 < r1 + r3 & r3 < r1 + r2) {
             if (r1 == r2 && r2 == r3 && r3 == r1) {
                 System.out.println("Formam trinagulo");
                 System.out.println("É um triangulo equilatero");
@@ -28,3 +29,4 @@ public class L2_exercicio_4 {
 
     }
 }
+/*((a < b + c) & a > Math.abs(b -c )) & ((b < a + c) & b > Math.abs(a-c)) & ((c < a + b) & c > Math.abs(a-b))*/
