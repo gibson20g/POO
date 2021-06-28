@@ -1,31 +1,28 @@
 import java.util.Scanner;
 public class L2_exercicio_6 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner tcd = new Scanner(System.in);
-        double notas[][]= new double[5][2];
-        String nomes[]= new String[5];
+        float media_nota1 = 0;
+        float media_nota2 = 0;
 
-        for (int a = 0; a <5; a++) {
-            System.out.println("Escreva seu nome: ");
-            nomes[a] = tcd.nextLine();
-            for (int n = 0; n < 2; n++) {
-                System.out.println(nomes[a]);
-                System.out.println("Nota 1: ");
-                notas[a][0] = tcd.nextInt();
-                System.out.println("Nota 2: ");
-                notas[a][1] = tcd.nextInt();
+        float media1 = media_nota1 / 5;
+        float media2 = media_nota2 / 5;
 
-            }
+        for (int c = 1; c < 6; c++) {
+            System.out.printf("Informe a Nota 1 do %sº anulo(a): ", c);
+            float nota1 = tcd.nextFloat();
+            media_nota1 += nota1;
+            System.out.printf("Informe a Nota 2 do %sº anulo(a): ", c);
+            float nota2 = tcd.nextFloat();
+            media_nota2 += nota2;
+            System.out.println("---------------Próximo---------");
         }
 
+        if (media1 == 8 && media2 == 8) {
+            System.out.printf("O total das media 1 foi : %.2f  e da média 2 foi : %.2f", media_nota1, media_nota2);
 
-
-
-        for (int i = 0; i <5; i++){
-            System.out.println(nomes[i]);
-            for (int x = 0; x < 2; x++){
-                System.out.println(notas[i][x]);
-            }
+        }else{
+            System.out.println("medias não maiores!!!");
         }
     }
 }

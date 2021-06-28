@@ -11,7 +11,7 @@ public class L2_exercicio_2 {
 
         double idade = ano_atual - ano_nascimento;
 
-        if (idade > 18) {
+        if (idade >= 18) {
             System.out.println("Você é maior de Idade");
         }else {
             System.out.println("Você é Menor de Idade");

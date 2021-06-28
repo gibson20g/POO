@@ -7,7 +7,7 @@ public class L2_exercicio_3 {
         System.out.println("Informe um número entre 1 e 100: ");
         double valor = dados.nextDouble();
 
-        if (valor % 4 == 0 && valor % 5 == 0){
+        if (valor % 4 == 0 & valor % 5 == 0){
             System.out.println("O número é divisivel por 4 e 5 ao mesmo tempo");
         }else if(valor % 5 ==0){
             System.out.println("valor Divisivel só por 5 ");

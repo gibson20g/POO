@@ -1,9 +1,9 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 public class L2_exercicio_18 {
     public static void main(String[] args) {
-        boolean  9;
-        do {
+        int a = 0;
+        while ( a == 5) {
             Scanner tcd = new Scanner(System.in);
             System.out.println("-----Calculadora-----");
             System.out.println("Informe o 1 valor: ");
@@ -20,7 +20,7 @@ public class L2_exercicio_18 {
             int op = tcd.nextInt();
             /*---------------------------------------*/
             /*-------------------OPÇOES ESCOLHIDAS E RESULTADO------------------------*/
-   /*         switch (op) {
+            switch (op) {
                 case 1:
                     float soma = num1 + num2;
                     System.out.printf("A soma de %f com %f = %f", num1, num2, soma);
@@ -41,6 +41,12 @@ public class L2_exercicio_18 {
                     System.out.println("invalido");
 
             }
+            System.out.println("Quer cotinuar?: ");
+            String a = tcd.nextInt();
+            if (a == 1){
+                break;
+            }
+
         }
     }
-}*/
+/
