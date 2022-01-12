@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class L2_exercicio_18 {
     public static void main(String[] args) {
@@ -18,8 +18,8 @@ public class L2_exercicio_18 {
 
             System.out.println("Informe a opção desejada: ");
             int op = tcd.nextInt();
-            /*---------------------------------------*/
-            /*-------------------OPÇOES ESCOLHIDAS E RESULTADO------------------------*/
+            /*---------------------------------------
+            /*-------------------OPÇOES ESCOLHIDAS E RESULTADO------------------------
             switch (op) {
                 case 1:
                     float soma = num1 + num2;
@@ -50,3 +50,4 @@ public class L2_exercicio_18 {
         }
     }
 }
+*/

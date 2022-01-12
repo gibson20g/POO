@@ -3,8 +3,6 @@ public class teste {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("n1");
-        bo
-
         int n1 = entrada.nextInt();
         System.out.println("n2");
         int n2 = entrada.nextInt();
